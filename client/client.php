@@ -42,21 +42,12 @@ if ($result === false) {
 socket_write($socket, $data, strlen($data));
 
 $URL = array( 
-       "個人情報保護方針" => "/security/kojinjyouhou_hogohohari.pdf",
-       "情報セキュリティポリシー" => "/syanaikitei/pdf/sec_policy.pdf",
-       "機密保持規程" => "/syanaikitei/pdf/5-1.pdf",
-       "情報セキュリティ管理規程" => "/syanaikitei/pdf/jyouhousekanrikitei.pdf",
-       "情報セキュリティ運用マニュアル" => "/syanaikitei/pdf/seq-manual_v22.pdf",
-       "情報保護物理的安全措置マニュアル" => "/security/anzen.pdf",
-       "ネットワーク管理マニュアル" => "/security/network_kanri.pdf",
-       "ウィルス対策マニュアル" => "/security/virus.pdf",
-       "ネチケットマニュアル" => "/security/netiket.pdf",
-       "個人情報管理規程" => "/syanaikitei/pdf/5-5.pdf",
-       "個人情報管理マニュアル" => "/security/kojin.pdf",
-       "個人情報保護運用マニュアル" => "/security/unyou.pdf",
-       "苦情要望対応マニュアル " => "/security/kuzyou.pdf",
-       "特定個人情報取扱規程" => "/syanaikitei/pdf/tokuteikojinjyouhou.pdf"
-        );
+       "PDF1のドキュメント名" => "http://www.example.com/pdf1.pdf",
+       "PDF2のドキュメント名" => "http://www.example.com/pdf2.pdf",
+       "PDF3のドキュメント名" => "http://www.example.com/pdf3.pdf",
+       "PDF4のドキュメント名" => "http://www.example.com/pdf4.pdf",
+       "PDF5のドキュメント名" => "http://www.example.com/pdf5.pdf",
+         );
 
 
 // サーバからの応答を受け取る
