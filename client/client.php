@@ -29,8 +29,7 @@ flush();
 $socket = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
 
 // サーバに接続
-//$address = '127.0.0.1';
-$address = "192.168.13.250";
+$address = '127.0.0.1';
 $port = 10000;
 $result = socket_connect($socket, $address, $port);
 
