@@ -162,8 +162,7 @@ if __name__ == "__main__":
     print( "start" )
 
     # ソケットのパラメーター定義
-    #server_ip = "127.0.0.1"
-    server_ip = "192.168.13.250"
+    server_ip = "127.0.0.1"
     server_port = 10000
     listen_num = 10
     buffer_size = 8192
